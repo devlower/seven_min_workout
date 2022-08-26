@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.SystemClock.sleep
 import android.view.MotionEvent
 import android.view.View
 import android.widget.FrameLayout
@@ -18,17 +19,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding?.root)
-        setContentView(R.layout.activity_main)
 
         binding?.flStart?.setOnTouchListener { view, event ->
             if (event.action == MotionEvent.ACTION_DOWN) {
                 view.setBackgroundResource(R.drawable.ic_btn_taped)
-
-                var intent = Intent(this, ExcerciseActivity::class.java)
-                startActivity(intent)
                 return@setOnTouchListener true
             }
             view.setBackgroundResource(R.drawable.ic_init_btn)
+            var intent = Intent(this, ExcerciseActivity::class.java)
+            startActivity(intent)
             false
         }
     }
