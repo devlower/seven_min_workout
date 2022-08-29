@@ -13,4 +13,5 @@
     <color name="medium_grey">#727272</color>
     <color name="light_grey">#9D9D9D</color>
     <color name="toolbar_color_control_normal">#15181C</color>
+    <color name="default_bg">#1B1E23</color>
 </resources>

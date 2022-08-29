@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/drawable/circular_progress_bar.xml" value="0.124" />
+        <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/drawable/circular_progress_gray.xml" value="0.124" />
+        <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.122" />
         <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1705" />
         <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.1705" />
         <entry key="..\:/Users/tuann/AndroidProjects/7min/app/src/main/res/layout/activity_excercise.xml" value="0.23854166666666668" />
